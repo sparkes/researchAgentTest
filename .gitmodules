@@ -1,0 +1,3 @@
+[submodule "researchAgentAPI"]
+	path = researchAgentAPI
+	url = https://github.com/sparkes/researchAgentAPI.git
