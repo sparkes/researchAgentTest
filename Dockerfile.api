@@ -3,7 +3,7 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # Copy the API requirements and install dependencies
-COPY researchAgentAPI/requirements.txt .
+COPY researchAgentAPI/requirements.txt ..
 RUN pip install -r requirements.txt
 
 # Copy the API code
